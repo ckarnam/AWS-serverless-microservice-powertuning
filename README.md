@@ -33,5 +33,10 @@ Simulate concurrent requests to validate performance in postman
 
 <img width="1278" height="792" alt="Lambda - Running" src="https://github.com/user-attachments/assets/71f80fe8-17c7-429d-afcc-3b65d2c7c465" />
 
+# Performance Optimization (AWS Lambda Power Tuning)
+Run Opensource AWS Lambda Power Tuning tool at 128 MB and 1024 MB.
+<img width="1770" height="811" alt="Lambda Tuning before" src="https://github.com/user-attachments/assets/f74408ab-147b-46f1-aaa3-0a7c45d6c760" />
+
+
 
 
