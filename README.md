@@ -35,6 +35,7 @@ Simulate concurrent requests to validate performance in postman
 
 # Performance Optimization (AWS Lambda Power Tuning)
 Run Opensource AWS Lambda Power Tuning tool at 128 MB and 1024 MB.
+
 Results
 • 128 MB: Slowest and highest cost
 • 1024 MB: Fastest and lowest total cost
