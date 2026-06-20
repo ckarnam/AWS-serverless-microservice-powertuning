@@ -1,5 +1,5 @@
 # AWS-serverless-microservice-powertuning
-A serverless backend powered by AWS Lambda, API Gateway, and DynamoDB — scalable and low-maintenance. This project also measures the performance and cost trade-offs of different memory configurations, validates real traffic behavior, and applies the optimal configuration. 
+A serverless backend powered by AWS Lambda, API Gateway, and DynamoDB — scalable and low-maintenance. This project tunes Lambda memory allocation to strike the right balance between cost optimization and performance efficiency.
 
 # Architecture
 <img width="2813" height="1210" alt="Architecture-diagram" src="https://github.com/user-attachments/assets/55b35c7d-77f5-4f7d-b5d6-a54a6087e6a0" />
@@ -36,6 +36,13 @@ Simulate concurrent requests to validate performance in postman
 # Performance Optimization (AWS Lambda Power Tuning)
 Run Opensource AWS Lambda Power Tuning tool at 128 MB and 1024 MB.
 <img width="1770" height="811" alt="Lambda Tuning before" src="https://github.com/user-attachments/assets/f74408ab-147b-46f1-aaa3-0a7c45d6c760" />
+
+# Key Takeaways
+
+AWS Lambda allocates vCPU (compute capacity) in proportion to the memory assigned to a function. Increasing memory doesn't just add RAM, it also speeds up execution.
+This creates a meaningful tradeoff. While higher memory increases the cost per millisecond, it can reduce total execution duration enough to lower the overall cost, since Lambda bills based on duration, not just memory size. 
+In other words, more memory doesn't always mean more cost. Lambda tweaking is how you can get a balance between cost optimization and performance efficiency.
+
 
 
 
