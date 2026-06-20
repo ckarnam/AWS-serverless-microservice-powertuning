@@ -20,8 +20,12 @@ A serverless backend powered by AWS Lambda, API Gateway, and DynamoDB — scalab
 4 - APIGateway - Create and deploy a REST API. Integrate with lambda function created earlier.
 <img width="2298" height="1018" alt="create-new-api" src="https://github.com/user-attachments/assets/db77794e-3858-4988-b442-90c8774c3442" />
 
-5 - POSTMAN - Execute API we created in previous steps from local machine
+5 - POSTMAN - Execute API we created in previous steps from local machine.
 <img width="1273" height="467" alt="Postman " src="https://github.com/user-attachments/assets/c19e5cd3-8862-411a-8ccf-09eeb4c3d1fa" />
+
+# Load Testing
+Simulate concurrent requests to validate performance in postman
+<img width="1278" height="792" alt="Lambda - Running" src="https://github.com/user-attachments/assets/71f80fe8-17c7-429d-afcc-3b65d2c7c465" />
 
 
 
