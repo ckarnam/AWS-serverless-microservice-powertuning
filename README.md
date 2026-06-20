@@ -21,6 +21,7 @@ A serverless backend powered by AWS Lambda, API Gateway, and DynamoDB — scalab
 <img width="2298" height="1018" alt="create-new-api" src="https://github.com/user-attachments/assets/db77794e-3858-4988-b442-90c8774c3442" />
 
 5 - POSTMAN - Execute API we created from local machine
-<img width="1273" height="467" alt="Postman " src="https://github.com/user-attachments/assets/5fabed25-090d-4dae-8794-894c96d6a2e1" />
+<img width="1273" height="467" alt="Postman " src="https://github.com/user-attachments/assets/c19e5cd3-8862-411a-8ccf-09eeb4c3d1fa" />
+
 
 
