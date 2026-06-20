@@ -9,11 +9,17 @@ A serverless backend powered by AWS Lambda, API Gateway, and DynamoDB — scalab
 # AWS Components 
 
 1 - Create custom IAM policy and role - To enable access to DynamoDB and Cloudwatch.
+<img width="2519" height="1264" alt="create-policy" src="https://github.com/user-attachments/assets/00c9b7a1-ab52-4252-8fe8-ff27e50d5bdc" />
 
-2 - Lambda - Create the function CRUD logic resides here.
+2 - Lambda - Business logic resides here. CRUD logic for accessing database
+<img width="1801" height="1162" alt="lambda-basic-info" src="https://github.com/user-attachments/assets/38c14b18-a80e-4496-81da-4a2f05048443" />
 
-3 - APIG - Create a REST API - POST method (due to payload to enter items or list DDB items).
+3 - APIGateway - Create a REST API - POST method.
+<img width="2298" height="1018" alt="create-new-api" src="https://github.com/user-attachments/assets/db77794e-3858-4988-b442-90c8774c3442" />
 
-4 - DynamoDB - Create table.
 
-5 - POSTMAN - to test API calls and Load testing simulation.
+4 - DynamoDB - NoSQL database for storage.
+<img width="2269" height="887" alt="create-dynamo-table" src="https://github.com/user-attachments/assets/0eb7047e-3e70-4117-ba90-ff2937380579" />
+
+
+5 - POSTMAN - To test API calls and Load testing simulation.
