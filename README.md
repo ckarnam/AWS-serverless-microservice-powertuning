@@ -6,20 +6,21 @@ A serverless backend powered by AWS Lambda, API Gateway, and DynamoDB — scalab
 
 
 
-# AWS Components 
+# AWS Components Setup 
 
-1 - Create custom IAM policy and role - To enable access to DynamoDB and Cloudwatch.
+1 - IAM - Create custom IAM policy and role in order to enable access to DynamoDB.
 <img width="2519" height="1264" alt="create-policy" src="https://github.com/user-attachments/assets/00c9b7a1-ab52-4252-8fe8-ff27e50d5bdc" />
 
-2 - Lambda - Business logic resides here. CRUD logic for accessing database
+2 - Lambda - Business logic resides here.
 <img width="1801" height="1162" alt="lambda-basic-info" src="https://github.com/user-attachments/assets/38c14b18-a80e-4496-81da-4a2f05048443" />
 
-3 - APIGateway - Create a REST API - POST method.
-<img width="2298" height="1018" alt="create-new-api" src="https://github.com/user-attachments/assets/db77794e-3858-4988-b442-90c8774c3442" />
-
-
-4 - DynamoDB - NoSQL database for storage.
+3 - DynamoDB - NoSQL database for storage.
 <img width="2269" height="887" alt="create-dynamo-table" src="https://github.com/user-attachments/assets/0eb7047e-3e70-4117-ba90-ff2937380579" />
 
+4 - APIGateway - Create and deploy a REST API. Integrate with lambda function created earlier.
+<img width="2298" height="1018" alt="create-new-api" src="https://github.com/user-attachments/assets/db77794e-3858-4988-b442-90c8774c3442" />
 
-5 - POSTMAN - To test API calls and Load testing simulation.
+5 - POSTMAN - Execute API we created from local machine
+<img width="1273" height="467" alt="Postman " src="https://github.com/user-attachments/assets/5fabed25-090d-4dae-8794-894c96d6a2e1" />
+
+
